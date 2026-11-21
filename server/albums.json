@@ -52,5 +52,64 @@
         "uri": "spotify:track:0DI3WNmIyfi2GZLQwhYDQC"
       }
     ]
+  },
+  {
+    "name": "Three Cheers for Sweet Revenge",
+    "artist": "My Chemical Romance",
+    "uri": "spotify:album:3DuiGV3J09SUhvp8gqNx8h",
+    "tracks": [
+      {
+        "name": "Helena",
+        "uri": "spotify:track:5dTHtzHFPyi8TlTtzoz1J9"
+      },
+      {
+        "name": "Give 'Em Hell, Kid",
+        "uri": "spotify:track:0axF06XwNLobcx5z8BVtYw"
+      },
+      {
+        "name": "To the End",
+        "uri": "spotify:track:1GErReAT0swX36x3O8GyQn"
+      },
+      {
+        "name": "You Know What They Do to Guys Like Us in Prison",
+        "uri": "spotify:track:5bTuwAgYUD5MABOIPH8ZMt"
+      },
+      {
+        "name": "I'm Not Okay (I Promise)",
+        "uri": "spotify:track:7lRlq939cDG4SzWOF4VAnd"
+      },
+      {
+        "name": "The Ghost of You",
+        "uri": "spotify:track:1yKAqZoi8xWGLCf5vajroL"
+      },
+      {
+        "name": "The Jetset Life Is Gonna Kill You",
+        "uri": "spotify:track:7HKfrU3iuEFrKxTAfVznrG"
+      },
+      {
+        "name": "Interlude",
+        "uri": "spotify:track:4vpaz6338VqJIeJHq6z2mU"
+      },
+      {
+        "name": "Thank You for the Venom",
+        "uri": "spotify:track:0BpKPyXhWsTaWkgXeOd1Sn"
+      },
+      {
+        "name": "Hang 'Em High",
+        "uri": "spotify:track:262RJtiqytpugV1UvDicN9"
+      },
+      {
+        "name": "It's Not a Fashion Statement, It's a Deathwish",
+        "uri": "spotify:track:4fGIqy3bvjX0jz1SJHqjjo"
+      },
+      {
+        "name": "Cemetery Drive",
+        "uri": "spotify:track:2cViIXIe8Pbd1sOJExMJlK"
+      },
+      {
+        "name": "I Never Told You What I Do for a Living",
+        "uri": "spotify:track:6gLn8QhAYL4dEwdpVjfCPl"
+      }
+    ]
   }
 ]
