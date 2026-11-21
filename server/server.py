@@ -551,14 +551,17 @@ if __name__ == "__main__":
     if _soloist_proc is not None:
         print(f"Found running Soloist (pid {_soloist_proc.pid})", file=sys.stderr)
 
-    if settings.SERVER_TRANSPORT == "http":
-        print(f"URL: http://{settings.SERVER_HOST}:{settings.SERVER_PORT}{settings.SERVER_PATH}")
+    try:
+        if settings.SERVER_TRANSPORT == "http":
+            print(f"URL: http://{settings.SERVER_HOST}:{settings.SERVER_PORT}{settings.SERVER_PATH}")
 
-        mcp.run(
-            transport="streamable-http",
-            host=settings.SERVER_HOST,
-            port=settings.SERVER_PORT,
-            streamable_http_path=settings.SERVER_PATH,
-        )
-    else:
-        mcp.run()
+            mcp.run(
+                transport="streamable-http",
+                host=settings.SERVER_HOST,
+                port=settings.SERVER_PORT,
+                streamable_http_path=settings.SERVER_PATH,
+            )
+        else:
+            mcp.run()
+    except KeyboardInterrupt:
+        print("MCP Server has been stopped.")
